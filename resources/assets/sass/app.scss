@@ -1,0 +1,38 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.productList li {
+  cursor: pointer;
+}
+.product h2 {
+  text-transform: capitalize;
+}
+
+.product {
+  margin: 30px 0px 30px;
+}
+
+.new-product h3,
+.update-product.card h3 {
+  margin: 20px 20px 0px;  
+  text-transform: uppercase;
+}
+.form-group label {display: block}
+.add-pro-btn {
+  width: 150px;
+}
+.new-product.card {
+  margin-bottom: 30px;
+}
